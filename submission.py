@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 
 # B12 endpoint and signing secret
 URL = "https://b12.io/apply/submission"
-SECRET = b"hello-there-from-b12"
+SECRET = b"please-hire-me-b12"
 
 # Dynamically get repository and run ID from GitHub Actions environment
 repo = os.environ.get("GITHUB_REPOSITORY")
@@ -27,7 +27,7 @@ payload = {
     "repository_link": f"https://github.com/{repo}",
     "action_run_link": action_run_link
 }
-
+   
 # Convert payload to canonical JSON (sorted keys, no whitespace)
 body = json.dumps(payload, separators=(",", ":"), sort_keys=True).encode("utf-8")
 
