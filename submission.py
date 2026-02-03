@@ -11,11 +11,10 @@ payload = {
     "timestamp": datetime.now(timezone.utc)
         .isoformat(timespec="milliseconds")
         .replace("+00:00", "Z"),
-    "name": "Your name",
+    "name": "Teddy Omondi",
     "email": "you@example.com",
-    "resume_link": "https://pdf-or-html-or-linkedin.example.com",
-    "repository_link": "https://github.com/yourusername/b12-submission",
-    "action_run_link": "https://github.com/yourusername/b12-submission/actions/runs/RUN_ID"
+    "resume_link": "https://drive.google.com/file/d/11gctOomUvRH1tR7MO8CBppawGKWinYOD/view?usp=sharing",
+    "repository_link": "https://github.com/TeddyO323/b12-submission/actions/runs/21640200847a"
 }
 
 body = json.dumps(
