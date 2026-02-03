@@ -14,7 +14,7 @@ payload = {
     "name": "Teddy Omondi",
     "email": "omosh60@gmail.com",
     "resume_link": "https://drive.google.com/file/d/11gctOomUvRH1tR7MO8CBppawGKWinYOD/view?usp=sharing",
-    "repository_link": "https://github.com/TeddyO323/b12-submission/actions/runs/21640200847a"
+    "repository_link": "https://github.com/TeddyO323/b12-submission/actions/runs/21640200847"
 }
 
 body = json.dumps(
