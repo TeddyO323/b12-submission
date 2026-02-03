@@ -35,6 +35,10 @@ headers = {
 }
 
 response = requests.post(URL, data=body, headers=headers)
-response.raise_for_status()
+if response.status_code != 200:
+    print("Status:", response.status_code)
+    print("Response:", response.text)
+    raise SystemExit(1)
+
 
 print(response.json()["receipt"])
