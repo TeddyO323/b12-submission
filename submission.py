@@ -12,7 +12,7 @@ payload = {
         .isoformat(timespec="milliseconds")
         .replace("+00:00", "Z"),
     "name": "Teddy Omondi",
-    "email": "you@example.com",
+    "email": "omosh60@gmail.com",
     "resume_link": "https://drive.google.com/file/d/11gctOomUvRH1tR7MO8CBppawGKWinYOD/view?usp=sharing",
     "repository_link": "https://github.com/TeddyO323/b12-submission/actions/runs/21640200847a"
 }
